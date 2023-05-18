@@ -2,43 +2,57 @@
 <html>
   <head>
     <title>lesson-6-group</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <div>
-        <img src="images/Group 2.svg" alt="skyhouse logo" />
-        <div>
-          <nav>
-            <ul>
-              <li>
-                <a href="#">მთავარი</a>
-              </li>
-              <li>
-                <a href="#">ჩვენ შესახებ</a>
-              </li>
-              <li>
-                <a href="#">სერვისები</a>
-              </li>
-              <li>
-                <a href="#">პროექტები</a>
-              </li>
-              <li>
-                <a href="#">პარტნიორები</a>
-              </li>
-              <li class="mini-contact">
-                <a href="#">კონტაქტი</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+      <div class="container">
+        <img class="skyhouse" src="images/Group 2.svg" alt="skyhouse-logo" />
+
+        <nav>
+          <ul>
+            <li>
+              <a href="#">მთავარი</a>
+            </li>
+            <li>
+              <a href="#">ჩვენ შესახებ</a>
+            </li>
+            <li>
+              <a href="#">სერვისები</a>
+            </li>
+            <li>
+              <a href="#">პროექტები</a>
+            </li>
+            <li>
+              <a href="#">პარტნიორები</a>
+            </li>
+            <li>
+              <a class="mini-contact" href="#">კონტაქტი</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <div>
-        <img src="images/Rectangle 3.png" alt="header-photo1" />
-        <img src="images/Rectangle 1.png" alt="header-photo2" />
+      <div class="header-photos">
+        <img
+          class="header-photo1"
+          src="images/Rectangle 3.png"
+          alt="header-photo1"
+        />
+
+        <img
+          class="header-photo2"
+          src="images/Rectangle 1.png"
+          alt="header-photo2"
+        />
+        <div class="bullets">
+          <div class="bullet1"></div>
+          <div class="bullet2"></div>
+          <div class="bullet3"></div>
+        </div>
       </div>
     </header>
     <section>
-      <div>
+      <div class="section-our">
         <h1>ჩვენ შესახებ</h1>
         <p>
           ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის
@@ -50,21 +64,20 @@
           როგორც დროებით ტექსტს წყობის შესავსებად; Lorem Ipsum-ის მოძებნისას კი
           საძიებო სისტემები ბევრ დაუსრულებელ გვერდს გვიჩვენებენ. წლების მანძილზე
           ამ ტექსტის უამრავი ვერსია გამოჩნდა, ზოგი შემთხვევით დაშვებული შეცდომის
-          გამო, ზოგი კი — განზრახ, ხუმრობით.
-        </p>
-        <p>
+          გამო, ზოგი კი — განზრახ, ხუმრობით<br />
           Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი
           სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ
           დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
         </p>
-        <img src="images/Rec 3.png" alt="section-rec3" />
+        <img class="section-rec3" src="images/Rec 3.png" alt="section-rec3" />
       </div>
     </section>
     <section>
-      <div>
-        <img src="images/Rec 4.png" alt="section-rec4" />
+      <div class="service">
+        <img class="section-rec4" src="images/Rec 4.png" alt="section-rec4" />
+
         <h1>სერვისები</h1>
-        <p>
+        <p class="paragraph">
           ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის
           ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. Lorem Ipsum-ის
           გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს,
@@ -78,9 +91,9 @@
         </p>
       </div>
     </section>
-    <section>
+    <section class="projects">
       <h1>პროექტები</h1>
-      <div>
+      <div class="project-first">
         <img src="images/Rectangle 18.png" alt="bottom-sec1" />
         <p>
           ჩვენი მიმდინარე პროექტი რომელიც შენდება დიდუბეში, წერეთლის 143 ნომერში
@@ -129,12 +142,12 @@
       </div>
       <div></div>
       <div>
-        <span></span>
+        <span>ყველა უფლება დაცულია</span>
         <div>
-          <span></span>
-          <img src="" alt="" />
-          <span></span>
-          <img src="" alt="" />
+          <span>დამზადებულია</span>
+          <img src="images/Group 73.png" alt="heart beat" />
+          <span>-ით</span>
+          <img src="images/Group 72.png" alt="smart logo" />
         </div>
       </div>
     </footer>
