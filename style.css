@@ -96,33 +96,100 @@ nav,
   margin-left: auto;
   margin-right: auto;
   margin-top: 380px;
+  padding-bottom: 300px;
 }
 .section-rec4 {
   width: 500px;
   margin-top: 100px;
 }
-.service p {
+.services,
+.services p {
   width: 360px;
   display: inline-block;
-  margin-left: -110px;
+  margin-left: 70px;
 }
-.service > h1 {
+.services,
+.services h1 {
   display: inline-block;
   vertical-align: top;
-  margin-left: 200px;
+  margin-left: 70px;
+  margin-top: -50px;
 }
 
 .projects {
   background-color: #0a22f4;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 450px;
+}
+.projects > h1 {
+  color: #ffffff;
+  margin-left: 100px;
+  margin-bottom: -30px;
+  padding-top: 50px;
 }
 .project-first {
   position: relative;
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
+  display: inline-block;
+  margin-left: 100px;
 }
 .project-first > p {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 25px;
+  bottom: 30px;
   color: black;
   width: 350px;
+  background-color: #ffffff;
+  padding: 20px;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+.project-first > img {
+  width: 400px;
+}
+.project-second {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+  display: inline-block;
+}
+.project-second > img {
+  width: 500px;
+}
+.project-second > p {
+  position: absolute;
+  left: 70px;
+  bottom: 80px;
+  color: black;
+  width: 350px;
+  background-color: #ffffff;
+  padding: 20px;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+.other-project {
+  display: block;
+  margin-left: 1200px;
+  margin-top: 50px;
+}
+.partner {
+  width: 430px;
+  margin-bottom: 40px;
+  margin-left: 80px;
+  display: inline-block;
+  vertical-align: top;
+}
+.partner h1 {
+  margin-bottom: 40px;
+}
+.pictures {
+  width: 800px;
+  display: inline-block;
+  margin-left: 200px;
+}
+footer {
+  background-color: #0020f4;
+  margin-top: 200px;
 }
